@@ -3,7 +3,7 @@ song2="";
 
 function preload(){
   song1=loadSound("song_1.mp3");
-  song2=loadSound("song_2.mp3")
+  song2=loadSound("song_2.mp3");
 }
 
 function setup() {
@@ -15,6 +15,6 @@ function setup() {
   }
 
   function draw(){
-    image(video,0,0,600,500);
+    image(video,0,0,400,300);
 }
   
